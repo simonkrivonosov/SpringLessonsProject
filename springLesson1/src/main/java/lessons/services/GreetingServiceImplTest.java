@@ -1,5 +1,8 @@
 package lessons.services;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GreetingServiceImplTest implements GreetingService {
 
     @Override
